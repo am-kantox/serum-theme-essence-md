@@ -20,7 +20,8 @@ defmodule Serum.Themes.Essence.MixProject do
 
   defp deps do
     [
-      {:serum_md, "~> 1.6"}
+      {:serum_md, "~> 1.6"},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 
