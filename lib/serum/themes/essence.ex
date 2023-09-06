@@ -1,8 +1,8 @@
 defmodule Serum.Themes.Essence do
   @behaviour Serum.Theme
 
-  @priv_dir :code.priv_dir(:serum_theme_essence)
-  @theme_version Mix.Project.config[:version]
+  @priv_dir :code.priv_dir(:serum_theme_essence_md)
+  @theme_version Mix.Project.config()[:version]
 
   def name, do: "Essence"
 
