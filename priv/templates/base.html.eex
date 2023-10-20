@@ -18,8 +18,10 @@
       <footer>
         <%= include "footer" %>
         <p>
-          Powered by <a href="https://github.com/Dalgona/Serum">Serum</a> v<%= Application.spec(:serum, :vsn) %>,
-          with <a href="https://github.com/Dalgona/serum-theme-essence">Essence</a> theme
+          made with ❤,
+          <a href="https://github.com/am-kantox/md">MD</a> markdown parser,
+          <a href="https://github.com/am-kantox/serum_md">Serum MD</a> v<%= Application.spec(:serum_md, :vsn) %> static blog engine,
+          and <a href="https://github.com/Dalgona/serum-theme-essence-md">Essence MD</a> theme
         </p>
       </footer>
     </div>
