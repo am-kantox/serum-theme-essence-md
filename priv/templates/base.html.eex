@@ -11,6 +11,7 @@
   <body>
     <div id="wrapper">
       <header id="top"><%= include "banner" %></header>
+      <hr>
       <nav><%= include "nav" %></nav>
       <hr>
       <main><%= @contents %></main>
